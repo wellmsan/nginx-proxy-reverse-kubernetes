@@ -2,13 +2,13 @@
 
 **Gerar as imagens docker localmente**
 
-- API1
+- API1 (/posts)
 
   `cd api1`
 
   `docker build . -t api1:local`
 
-- API2
+- API2 (/comments)
 
   `cd api2`
 
