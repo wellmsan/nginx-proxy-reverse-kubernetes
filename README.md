@@ -18,7 +18,7 @@
 
   `cd nginx`
 
-  `docker build . -t api1:local`
+  `docker build . -t nginx:local`
 
 
 **Aplicar os arquivos do Kubernetes**
