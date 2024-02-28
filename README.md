@@ -20,6 +20,7 @@
 
   `docker build . -t api1:local`
 
+
 **Aplicar os arquivos do Kubernetes**
 
 `kubectl apply -f namespace.yaml`
@@ -34,7 +35,9 @@
 
 `kubectl apply -f api2-service.yaml`
 
+
 **Endpoints**
+
 `curl --request GET|POST|PUT|PATCH --url http://localhost/posts`
 
 `curl --request GET|POST|PUT|PATCH --url http://localhost/comments`
