@@ -33,3 +33,8 @@
 `kubectl apply -f api1-service.yaml`
 
 `kubectl apply -f api2-service.yaml`
+
+**Endpoints**
+`curl --request GET|POST|PUT|PATCH --url http://localhost/posts`
+
+`curl --request GET|POST|PUT|PATCH --url http://localhost/comments`
