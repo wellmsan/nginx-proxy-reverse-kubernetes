@@ -1,0 +1,13 @@
+# api1-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: api1-service
+  namespace: exemplo-namespace
+spec:
+  selector:
+    app: api1
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000

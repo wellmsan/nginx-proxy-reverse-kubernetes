@@ -1,0 +1,21 @@
+# api1-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api1-deployment
+  namespace: exemplo-namespace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api1
+  template:
+    metadata:
+      labels:
+        app: api1
+    spec:
+      containers:
+        - name: api1-container
+          image: api1:local
+          ports:
+            - containerPort: 3000
