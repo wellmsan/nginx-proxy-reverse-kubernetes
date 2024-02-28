@@ -20,7 +20,7 @@
 
   `docker build . -t api1:local`
 
-**Aplicat os arquivos do Kubernetes**
+**Aplicar os arquivos do Kubernetes**
 
 `kubectl apply -f namespace.yaml`
 
